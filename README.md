@@ -1,4 +1,4 @@
-readme_content = """# App de Gestão de Eventos Acadêmicos
+## App de Gestão de Eventos Acadêmicos
 
 Este é um projeto prático desenvolvido para a faculdade com o objetivo de gerenciar e realizar inscrições em eventos acadêmicos. Ele é dividido em duas partes: um aplicativo nativo em Android (Kotlin) e uma API no backend (Python/FastAPI) integrada a um banco de dados SQLite.
 
