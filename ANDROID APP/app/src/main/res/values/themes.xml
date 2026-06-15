@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AP2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/azul_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/amarelo_secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:windowBackground">@color/background_white</item>
+        <item name="android:statusBarColor">@color/azul_primary</item>
+
+        <!-- Rounded Buttons Style -->
+        <item name="materialButtonStyle">@style/Widget.Material3.Button.Rounded</item>
+    </style>
+
+    <style name="Widget.Material3.Button.Rounded" parent="Widget.Material3.Button">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.Rounded</item>
+    </style>
+
+    <style name="ShapeAppearance.Rounded" parent="">
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <style name="Theme.AP2" parent="Base.Theme.AP2" />
+</resources>
